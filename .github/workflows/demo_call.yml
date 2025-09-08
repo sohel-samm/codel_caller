@@ -23,5 +23,7 @@ jobs:
      permissions:                # 👈 must declare here
       security-events: write    # allow uploading results
       contents: read  
+      actions: read
+      packages: read
 
    
