@@ -26,4 +26,13 @@ jobs:
       actions: read
       packages: read
 
+  call-rdp:
+    needs: call-codeql
+    uses: sohel-samm/codeql_repo/.github/workflows/rdp.yml@main
+    permissions:
+      contents: read
+      actions: read
+      packages: read
+      
+
    
