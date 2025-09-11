@@ -1,5 +1,5 @@
 # vuln_app.py
-# Intentionally vulnerable Python code for CodeQL testing
+# Intentionally vulnerable Python code for CodeQL  testing
 
 import os
 import subprocess
